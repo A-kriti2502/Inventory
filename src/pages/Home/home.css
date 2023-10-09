@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.home {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.NavLogo {
+    height: 10%;
+    margin: 10px 0 0px 10px;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 80px;
+    width: 80px;
+}
+
+.image-container {
+    position: relative;
+    flex: 1;
+    display: flex;
+    align-items: flex-end;
+    height: 50%;
+}
+
+.man {
+    position: absolute;
+    z-index: 1;
+    /* bottom: 3rem; */
+    right: 8rem;
+    /* height: 70%; */
+}
+
+.wave {
+    position: absolute;
+    z-index: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.main {
+    display: flex;
+    margin: 10px;
+    height: 30%;
+}
+
+.main-content {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main-button {
+    flex: 1;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start; 
+}
+
+.loginButton {
+    margin: 0 10px 10px 0; 
+}
+
+h1{
+    font-size: 4rem;
+}
