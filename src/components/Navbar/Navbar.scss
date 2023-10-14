@@ -4,6 +4,7 @@
   height: 30vh;
   padding: 1rem;
   display: fixed;
+
   .navitems{
     display: flex;
     align-items: flex-start;
@@ -78,6 +79,21 @@
         display: flex;
         align-items: center;
         gap: 1rem;
+        position: relative;
+        .count{
+          position: absolute;
+          height: 17px;
+          width: 17px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border-radius: 100%;
+          background-color: red;
+          left: 15px;
+          top: 40px;
+          color: aliceblue;
+          font-size: small;
+        }
         .notification{
             height: 50px;
             width: 50px;
@@ -86,7 +102,12 @@
         .profile{
             height: 50px;
             width: 50px;
-            background-color: black;
+            background-color: rgb(74, 33, 33);
+            border-radius: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
         }
       }
     }

@@ -1,9 +1,76 @@
 .sidebar {
-  width: 17%;
-  height: 60vh;
-  background-color: cadetblue;
+  width: 20%;
+  height: 70vh;
+  background-color: aliceblue;
   position: absolute;
-  top: 15%; 
+  top: 135px; 
   display: fixed;
   left: 0;
+  border-radius: 20px;
+  padding: 25px;
+  ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    li{
+      padding: 5px;
+      display: flex;
+      justify-content: flex-start;
+      .sidebarItems{
+        width: 60%;
+        display: flex;
+        gap: 20px;
+        .item{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+      
+      &:hover{
+        background-color: rgba(213, 211, 211, 0.758);
+        border-radius: 20px;
+      }
+    }
+  }
+  .style-sidebar{
+    position: absolute;
+    width: 4px;
+    height: 60px;
+    background-color: black;
+    left: -25px;
+  }
+  .style-notification{
+    height: 136px;
+    width: 1px;
+    background-color: black;
+    position: absolute;
+    bottom: -139px;
+    left: 25px;
+  }
+  .sub-notification{
+    position: absolute;
+    right: 0;
+    bottom: -140px;
+    width: 70%;
+      .subsidebarItems{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding: 3px;
+        .center-subsidebar{
+          display: flex;
+          justify-content: flex-start; 
+          width: 80%;
+          gap: 10px;
+          .SubItem{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 12px;
+          }
+      }
+    }
+  }     
 }

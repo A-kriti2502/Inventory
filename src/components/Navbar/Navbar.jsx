@@ -1,6 +1,8 @@
 import React from 'react';
 import './Navbar.scss';
 import Logo from '../../assest/Logo.svg';
+import { AiFillBell, AiOutlineSearch } from 'react-icons/ai';
+
 
 const Navbar = () => {
   return (
@@ -21,14 +23,17 @@ const Navbar = () => {
 
         <div className="search">
           <div className="searchOptions">
-            <div className="searchLogo"></div>
+            <AiOutlineSearch size={23}/>
+            {/* <div className="searchLogo"></div> */}
             <input type="text" placeholder='search'/>
           </div>
         </div>
 
         <div className="options">
-          <div className="notification"></div>
-          <div className="profile"></div>
+          <AiFillBell size={30}/>
+          <div className="count">5</div>
+          {/* <div className="notification"></div> */}
+          <div className="profile">AS</div>
         </div>
       </div>
     </div>
