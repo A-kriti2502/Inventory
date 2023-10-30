@@ -2,50 +2,50 @@ export const topDealUsers = [
     {
       id: 1,
       img: "https://images.pexels.com/photos/8405873/pexels-photo-8405873.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-      username: "Elva McDonald",
-      email: "elva@gmail.com",
+      username: "Aakriti Singh",
+      email: "aakriti@gmail.com",
       amount: "3.668",
     },
     {
       id: 2,
       img: "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=1600",
-      username: "Linnie Nelson",
-      email: "linnie@gmail.com",
+      username: "Natasha Sanyal",
+      email: "Natasha@gmail.com",
       amount: "3.256",
     },
     {
       id: 3,
       img: "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=1600",
-      username: "Brent Reeves",
-      email: "brent@gmail.com",
+      username: "Abhay Singh",
+      email: "abhay@gmail.com",
       amount: "2.998",
     },
     {
       id: 4,
       img: "https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg?auto=compress&cs=tinysrgb&w=1600",
-      username: "Adeline Watson",
-      email: "adeline@gmail.com",
+      username: "Poonam Singh",
+      email: "Poonam@gmail.com",
       amount: "2.512",
     },
     {
       id: 5,
       img: "https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&w=1600",
-      username: "Juan Harrington",
-      email: "juan@gmail.com",
+      username: "Varun Raskar",
+      email: "varun@gmail.com",
       amount: "2.134",
     },
     {
       id: 6,
       img: "https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?auto=compress&cs=tinysrgb&w=1600",
-      username: "Augusta McGee",
-      email: "augusta@gmail.com",
+      username: "Pranjal Paira",
+      email: "Pranjal@gmail.com",
       amount: "1.932",
     },
     {
       id: 7,
       img: "https://images.pexels.com/photos/874158/pexels-photo-874158.jpeg?auto=compress&cs=tinysrgb&w=1600",
-      username: "Angel Thomas",
-      email: "angel@gmail.com",
+      username: "Snehal Sharama",
+      email: "Snehal@gmail.com",
       amount: "1.560",
     },
   ];
@@ -53,7 +53,7 @@ export const topDealUsers = [
     color: "#8884d8",
     icon: "/userIcon.svg",
     title: "Total Users",
-    number: "11.238",
+    number: "1,123",
     dataKey: "users",
     percentage: 45,
     chartData: [
@@ -87,7 +87,7 @@ export const topDealUsers = [
     color: "teal",
     icon: "/revenueIcon.svg",
     title: "Total Revenue",
-    number: "₹56.432",
+    number: "₹56",
     dataKey: "revenue",
     percentage: -12,
     chartData: [
@@ -101,25 +101,8 @@ export const topDealUsers = [
     ],
   };
 
-  export const chartBoxConversion = {
-    color: "gold",
-    icon: "/conversionIcon.svg",
-    title: "Total Ratio",
-    number: "2.6",
-    dataKey: "ratio",
-    percentage: 12,
-    chartData: [
-      { name: "Sun", ratio: 400 },
-      { name: "Mon", ratio: 600 },
-      { name: "Tue", ratio: 500 },
-      { name: "Wed", ratio: 700 },
-      { name: "Thu", ratio: 400 },
-      { name: "Fri", ratio: 500 },
-      { name: "Sat", ratio: 450 },
-    ],
-  };
   export const barChartBoxRevenue = {
-    title: "Profit Earned",
+    title: "Profit Earned This Week",
     color: "#8884d8",
     dataKey: "profit",
     chartData: [
@@ -150,6 +133,73 @@ export const topDealUsers = [
       {
         name: "Sat",
         profit: 3490,
+      },
+    ],
+  };
+  export const barChartYearRevenue = {
+    title: "Revenue Quaterly Generated",
+    color: "#0088FE",
+    dataKey: "profit",
+    chartData: [
+      {
+        name: "Jan",
+        profit: 4000,
+        color: "#0088FE"
+      },
+      {
+        name: "Feb",
+        profit: 3000,
+        color: "#0088FE",
+      },
+      {
+        name: "Mar",
+        profit: 2000,
+        color: "#0088FE",
+      },
+      {
+        name: "Apr",
+        profit: 2780,
+        color: "#00C49F",
+      },
+      {
+        name: "May",
+        profit: 1890,
+        color: "#00C49F",
+      },
+      {
+        name: "Jun",
+        profit: 2390,
+        color: "#00C49F",
+      },
+      {
+        name: "Jul",
+        profit: 3490,
+        color: "#FFBB28",
+      }
+      ,{
+        name: "Aug",
+        profit: 2000,
+        color: "#FFBB28",
+      },
+      {
+        name: "Sep",
+        profit: 2780,
+        color: "#FFBB28",
+      },
+      {
+        name: "Oct",
+        profit: 1890,
+        color: "#FF8042",
+      },
+      {
+        name: "Nov",
+        profit: 2390,
+        color: "#FF8042",
+      },
+      {
+        name: "Dec",
+        profit: 3490,
+        color: "#FF8042",
       },
     ],
   };
