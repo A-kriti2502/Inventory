@@ -1,58 +1,49 @@
-import { AiFillPieChart, AiOutlineLineChart } from 'react-icons/ai';
+import {  AiOutlineLineChart } from 'react-icons/ai';
 import { IoIosSettings } from 'react-icons/io';
-import {BiSolidNotification} from 'react-icons/bi';
+import {MdOutlineSegment} from 'react-icons/md';
 import {CgArrowsExchangeAlt} from 'react-icons/cg';
 import {PiDeviceTabletSpeakerDuotone} from 'react-icons/pi';
 import {TbDeviceTabletX} from 'react-icons/tb';
-import { BsFillPeopleFill, BsFillClipboardDataFill } from 'react-icons/bs';
+import {  BsFillClipboardDataFill } from 'react-icons/bs';
 
-export const sidebarMenuItems = [
+export const sidebarManager = [
+    
     {
-        path:"/admin/analytics",
-        name:"Analytics",
-        icon: <AiFillPieChart size={23}/>
-    },
-    {
-        path:"/admin/inventory",
+        path:"/manager/inventory",
         name:"Inventory",
         icon: <BsFillClipboardDataFill size={23}/>
     },
     {
-        path:"/admin/managerDetails",
-        name:"ManagerDetails",
-        icon: <BsFillPeopleFill size={23}/>
-    },
-    {
-        path:"/admin/maintainence",
+        path:"/manager/maintenance",
         name:"Maintainence",
         icon: <IoIosSettings size={23}/>
     },
     {
-        path:"/admin/Sales",
+        path:"/manager/Sales",
         name:"Sales",
-        icon: <BsFillPeopleFill size={23}/>
+        icon: <AiOutlineLineChart size={23}/>
     },
     {
-        path:"/admin/notification",
-        name:"Notification",
-        icon: <BiSolidNotification size={23}/>,
+        path:"/manager/services",
+        name:"Services",
+        icon: <MdOutlineSegment size={23}/>,
         more: [
             {
-                subpath: "/admin/notification/exchange",
+                subpath: "/manager/notification/exchange",
                 subname: "Exchange",
                 subicon: <CgArrowsExchangeAlt size={20}/> 
             },
             {
-                subpath: "/admin/notification/restock",
+                subpath: "/manager/notification/restock",
                 subname: "Restock",
                 subicon: <PiDeviceTabletSpeakerDuotone size={20}/> 
             },
             {
-                subpath: "/admin/notification/defect",
+                subpath: "/manager/notification/defect",
                 subname: "Defect",
                 subicon: <TbDeviceTabletX size={20}/>
             },
 
         ]
-    }
+    },
 ]

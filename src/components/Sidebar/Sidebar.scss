@@ -8,6 +8,7 @@
   left: 0;
   border-radius: 20px;
   padding: 25px;
+  
   ul{
     display: flex;
     flex-direction: column;
@@ -32,12 +33,27 @@
         background-color: rgba(213, 211, 211, 0.758);
         border-radius: 20px;
       }
+      .active-link {
+        background-color: rgba(213, 211, 211, 0.758);
+        border-radius: 20px;
+        width: 100%;
+        height: inherit;
+        padding: 4px;
+      }
+      .subactive-link{
+        background-color: rgba(213, 211, 211, 0.758);
+        border-radius: 20px;
+        width: 100%;
+        height: 100%;
+        padding: 4px;
+      }
     }
   }
+  
   .style-sidebar{
     position: absolute;
-    width: 4px;
-    height: 60px;
+    width: 2px;
+    height: 140px;
     background-color: black;
     left: -25px;
   }
@@ -51,8 +67,8 @@
   }
   .sub-notification{
     position: absolute;
-    right: 0;
-    bottom: -140px;
+    right: 28px;
+    bottom: -150px;
     width: 70%;
       .subsidebarItems{
         display: flex;
@@ -62,7 +78,7 @@
         .center-subsidebar{
           display: flex;
           justify-content: flex-start; 
-          width: 80%;
+          width: 100%;
           gap: 10px;
           .SubItem{
             display: flex;

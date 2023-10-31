@@ -9,7 +9,6 @@ import TotalRevenue from '../../../components/charts/TotalRevenue/TotalRevenue';
 import YearChart from '../../../components/charts/YearChart/YearChart';
 
 const Analytics = () => {
-  console.log("Analytics page");
   return (
     <div className='analytics'>
       <div className="box box1">
